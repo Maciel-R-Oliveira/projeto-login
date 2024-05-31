@@ -70,8 +70,7 @@ form > div.campo {
     display: block;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0;
-    border: 2px solid #5f2c82;
+    margin: 5px 0px;
 }
 
 div.campo > label {
@@ -91,10 +90,11 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 44.5px);
     height: 100%;
-    border: 0px;
+    border: 2px solid #5f2c82;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12.9px);
+    transform: translateY(-10.5px);
+    padding: 10px;
 }
 
 div.campo > input:focus-within {
